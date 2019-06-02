@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/city_popup_cardview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/city_popup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City information"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/city_popup_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City name:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/city_popup_title"
+
+            />
+
+        <TextView
+            android:id="@+id/city_popup_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Default name"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_name_title"
+            android:layout_below="@+id/city_popup_title"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/city_popup_location_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Location:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/city_popup_name_title"
+            />
+
+        <TextView
+            android:id="@+id/city_popup_location_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default location"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_location_title"
+            android:layout_below="@+id/city_popup_name_text"
+            android:maxLines="1"
+
+            />
+
+        <TextView
+            android:id="@+id/city_popup_owner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Owner:"
+            android:layout_below="@+id/city_popup_location_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/city_popup_owner_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default location"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_owner_title"
+            android:layout_below="@+id/city_popup_location_text"
+            android:maxLines="1"
+
+            />
+        <TextView
+            android:id="@+id/city_popup_price_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Price:"
+            android:layout_below="@+id/city_popup_owner_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/city_popup_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default location"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_price_title"
+            android:layout_below="@+id/city_popup_owner_text"
+            android:maxLines="1"
+
+            />
+        <TextView
+            android:id="@+id/city_popup_creator_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Creator:"
+            android:layout_below="@+id/city_popup_price_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/city_popup_creator_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default creator"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_creator_title"
+            android:layout_below="@+id/city_popup_price_text"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/city_popup_creator_title"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/city_popup_fine_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Fine:"
+            android:layout_below="@+id/city_popup_creator_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/city_popup_fine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default Fine"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_fine_title"
+            android:layout_below="@+id/city_popup_creator_text"
+            android:maxLines="1"
+            />
+        <TextView
+            android:id="@+id/city_popup_owner_id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner Id:"
+            android:layout_below="@+id/city_popup_fine_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/city_popup_owner_id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default owner id"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/city_popup_owner_id_title"
+            android:layout_below="@+id/city_popup_fine_text"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/city_popup_creation_timestamp_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creation Date:"
+            android:layout_below="@+id/city_popup_owner_id_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/city_popup_creation_timestamp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default date"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:gravity="left|center_vertical"
+            android:layout_alignBottom="@+id/city_popup_creation_timestamp_title"
+            android:layout_toRightOf="@+id/city_popup_creation_timestamp_title"
+            android:layout_below="@+id/city_popup_owner_id_text"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/city_popup_is_expired_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City State:"
+            android:layout_below="@+id/city_popup_creation_timestamp_title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/city_popup_is_expired_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default state"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:gravity="left|center_vertical"
+            android:layout_alignBottom="@+id/city_popup_is_expired_title"
+            android:layout_toRightOf="@+id/city_popup_is_expired_title"
+            android:layout_below="@+id/city_popup_creation_timestamp_text"
+            android:maxLines="1"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
